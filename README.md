@@ -1,11 +1,13 @@
 # software_development_skills
 
-English | [中文](README.zh.md)
+[English](README.en.md) | 中文
 
-A set of software development workflow skill documents for AI, covering the complete lifecycle from requirements analysis to delivery.
+一套给 AI 使用的软件开发全流程 skill 文档，覆盖从需求分析到交付的完整链路。
 
-## Installation & Usage
+## 安装与使用
 
-1. Create a directory: create an empty directory as the project workspace and open it in your AI tool
-2. Install the skill: `npx skills add yinhunfeixue/software_development_skills`
-3. Get started: type `load skill, I want to ****` in chat
+1. 创建目录：新建一个空目录作为项目 workspace，在 AI 工具中打开
+2. 安装 skill：`npx skills add yinhunfeixue/software_development_skills`
+3. 开始：
+   - 在 chat 中输入 `加载 skill`
+   - 然后输入你的需求，例如 `我要创建一个新闻网站`
