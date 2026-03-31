@@ -26,3 +26,7 @@ description: web 开发规范，web 项目适用，在 base.coding-standards 基
 - 禁用 emoji：禁止在 UI 中使用 emoji 文字
 - 数据文字：接口返回的动态文字（用户名、内容、状态等）通过接口加载，不硬编码
 - 普通文字：UI 固定文字（按钮、标签、提示语等）直接嵌入代码或本地化文件，不依赖接口
+
+## UI 设计工具
+
+#[[file:base.ui-design.md]]
