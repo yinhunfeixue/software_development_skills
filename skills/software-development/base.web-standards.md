@@ -11,6 +11,10 @@ description: web 开发规范，web 项目适用，在 base.coding-standards 基
 
 若开发者无特殊要求，默认使用：React + TypeScript + Sass + Vite + Ant Design
 
+## Vite 使用指南
+
+- 创建项目：加上 `--no-immediate` 参数避免询问是否立即启动，例如：`npm create vite@latest <项目名> -- --template <模板名> --no-immediate`
+
 ## 资源文件规范（图片等）
 
 - 资源文件：图片等资源存放在 `src/assets/` 目录下，代码中直接引用路径；后期替换只需换文件，无需改代码
