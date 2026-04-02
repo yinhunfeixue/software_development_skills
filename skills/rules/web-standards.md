@@ -1,11 +1,11 @@
 ---
 name: web-standards
-description: web 开发规范，web 项目适用，在 base.coding-standards 基础上补充
+description: web 开发规范，web 项目适用，在 coding-standards 基础上补充
 ---
 
 # web 开发规范
 
-> 通用规范见 `base.coding-standards`
+> 通用规范见 `coding-standards`
 
 ## 默认技术栈
 
@@ -14,6 +14,10 @@ description: web 开发规范，web 项目适用，在 base.coding-standards 基
 ## Vite 使用指南
 
 - 创建项目：加上 `--no-immediate` 参数避免询问是否立即启动，例如：`npm create vite@latest <项目名> -- --template <模板名> --no-immediate`
+
+## package.json
+
+- 前端项目必须检查 `package.json`：根据项目列出需要检查的内容，逐项检查并输出结果
 
 ## 资源文件规范（图片等）
 
@@ -33,4 +37,4 @@ description: web 开发规范，web 项目适用，在 base.coding-standards 基
 
 ## UI 设计工具
 
-#[[file:base.ui-design.md]]
+#[[file:ui-design.md]]
